@@ -1,0 +1,4 @@
+.nav-link{
+    font-family: var(--font-texto);
+    color: var(--cor-texto) !important;
+}
