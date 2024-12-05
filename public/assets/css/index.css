@@ -2,3 +2,64 @@
     font-family: var(--font-texto);
     color: var(--cor-texto) !important;
 }
+
+.principal{
+    padding: 5rem 2rem;
+    background-color: var(--cor-fundo);
+}
+
+.subtitle{
+    font-family: var(--font-texto); 
+    color: #d4d4d4;
+    font-weight: 400 !important;
+}
+
+.move-btn{
+    border: 1px solid var(--cor-titulos);
+    border-radius: 50%;
+    background-color: var(--cor-titulos);
+    width: 2rem;
+    height: 2rem;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.seta-dir{
+    width: 1rem;
+    height: 1rem;
+    transform: rotate(45deg);
+    border: 4px solid var(--cor-fundo);
+    background-color: var(--cor-titulos);
+    border-bottom: none;
+    border-left: none;
+}
+
+.seta-esq{
+    width: 1rem;
+    height: 1rem;
+    transform: rotate(45deg);
+    border: 4px solid var(--cor-fundo);
+    background-color: var(--cor-titulos);
+    border-top: none;
+    border-right: none;
+}
+
+.carousel-container {
+    position: relative;
+    width: 80%;
+    overflow: hidden;
+}
+
+.carousel{
+    transition: transform 0.5s ease-in-out;
+}
+
+.link-carousel:hover{
+    box-shadow: rgb(75, 101, 129) 0px 20px 30px -10px;
+}
+
+#section-author{
+    padding: 2rem;
+}

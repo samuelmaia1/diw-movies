@@ -3,12 +3,19 @@
 :root{
     --cor-texto: #FFFAFA;
     --font-texto: 'Montserrat', sans-serif;
+    --cor-fundo: #141414;
+    --cor-titulos: #e50913;
 }
 
 *{
     margin: 0;
     padding: 0;
-    background-color: #141414;
+    box-sizing: border-box;
+    background-color: var(--cor-fundo);
+}
+
+body{
+    background-color: var(--cor-fundo);
 }
 
 a{
