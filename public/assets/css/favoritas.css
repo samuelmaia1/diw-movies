@@ -1,0 +1,35 @@
+@import url(./favoritas.css);
+
+#elencoCarousel .carousel-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.elenco-card {
+    width: 150px;
+    text-align: center;
+    margin: 10px;
+    background-color: var(--cor-fundo);
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.elenco-card img {
+    width: 100%;
+    height: auto;
+    border-bottom: 2px solid #ddd;
+}
+
+.actor-name {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: var(--cor-texto);
+}
+
+.actor-role {
+    font-size: 14px;
+    color: var(--cor-texto);
+}
