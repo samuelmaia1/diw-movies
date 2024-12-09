@@ -1,5 +1,11 @@
+@import url(./global.css);
+
 .nav-link{
     font-family: var(--font-texto);
+    color: var(--cor-texto) !important;
+}
+
+p{
     color: var(--cor-texto) !important;
 }
 
@@ -62,4 +68,12 @@
 
 #section-author{
     padding: 2rem;
+}
+
+.span-nota{
+    color: var(--cor-titulos) !important;
+}
+
+.btn{
+    max-width: 100px !important;
 }

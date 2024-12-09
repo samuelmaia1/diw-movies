@@ -1,0 +1,22 @@
+{
+    "usuario": {
+        "id": 1234,
+        "nome": "João Victor Viana",
+        "curso": "Análise e Desenvolvimento de Sistemas",
+        "email": "",
+        "instagram" : "https://www.instagram.com/joao.viana_22?igsh=b3dqa2VrOTdoenhx&utm_source=qr",
+        "turma": "4977.1.00",
+        "bio": "Sou o João tenho 20 anos, curso análise e desenvolvimento de sistemas na puc São Gabriel e tenho o desejo de me tornar um desenvolvedor.",
+        "facebook": "https://www.facebook.com/?locale=pt_BR",
+        "twitter": "https://x.com/"
+    },
+    "series": [
+        {
+            "id": 912649,
+            "backdrop_path": "/3V4kLQg0kSqPLctI5ziYWabAZYF.jpg",
+            "title": "Venom: The Last Dance",
+            "overview": "Eddie and Venom are on the run. Hunted by both of their worlds and with the net closing in, the duo are forced into a devastating decision that will bring the curtains down on Venom and Eddie's last dance.",
+            "vote_average" : 6.4
+        }
+    ]
+}

@@ -21,3 +21,12 @@ body{
 a{
     text-decoration: none !important;
 }
+
+.nav-link{
+    font-family: var(--font-texto);
+    color: var(--cor-texto) !important;
+}
+
+.nav-link:hover{
+    color: var(--cor-titulos) !important;
+}
